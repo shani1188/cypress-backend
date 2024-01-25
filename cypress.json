@@ -1,0 +1,21 @@
+{
+  "baseUrl": "http://localhost:4200/",
+  "ignoreTestFiles": ["**/2-advanced-examples/*", "**/1-getting-started/*"],
+  "viewportHeight": 1080,
+  "viewportWidth": 1920,
+  "blockHosts": ["*fonts.googleapis.com"],
+  "video": false,
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporter-config.json"
+  },
+  "env": {
+    "username": "shahrukh.asghar.92@gmail.com",
+    "password": "test123!",
+    "apiUrl": "https://api.realworld.io"
+  },
+  "retries": {
+    "runMode": 2,
+    "openMode": 1
+  }
+}
